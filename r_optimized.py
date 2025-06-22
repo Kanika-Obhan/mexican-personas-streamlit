@@ -48,10 +48,10 @@ def load_languages():
     try:
         with open(LANGUAGES_FILE, 'r', encoding='utf-8') as f:
             languages = [line.strip() for line in f if line.strip()]
-            return languages if languages else ["English", "Sinhala", "Tamil"]
+            return languages if languages else ["English", "Spanish"]
     except Exception as e:
         st.error(f"Error reading languages file: {str(e)}")
-        return ["English", "Sinhala", "Tamil"]
+        return ["English", "Spanish"]
 
 def filter_persona_by_traits(persona_content, selected_traits):
     if not selected_traits:
