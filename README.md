@@ -1,4 +1,4 @@
-# Sri Lankan Personas Streamlit App
+# Mexcian Personas Streamlit App
 
 ## Overview
 
@@ -26,7 +26,7 @@ The app is designed for flexibility, supporting both structured (bulk) and free-
 - **User Personalization:** User name and gender are loaded from a `user_info.txt` file at the repo root, ensuring responses are tailored.
 - **Automatic Persona Extraction:** Bot name and origin are extracted from each `[persona files].txt` file in the `Personas` folder, ensuring responses are tailored. The assumption made is: the lines with name and origin begin with `Name: ` and `Origin: ` respectively.
 - **Robust Error Handling:** The app gracefully handles missing files, malformed question files, and API errors, and provides clear user feedback. 
-- **Persona Customization:** The app allows you to choose specific personality traits (e.g., "Traditional", "Humorous") to shape responses, as well as select conversation language (English/Sinhala/Tamil/Hindi) for authentic interactions
+- **Persona Customization:** The app allows you to choose specific personality traits (e.g., "Traditional", "Humorous") to shape responses, as well as select conversation language (English/Spanish) for authentic interactions
 - **Refined Interface:** 
   - Streamlined Setup: Intuitive persona → traits → language configuration flow
   - Clear setup progression indicators
